@@ -35,4 +35,4 @@ If you find a bug or would like to contribute to the development of this reposit
 
 [**Watch the tutorial video here**](https://www.youtube.com/watch?v=XzgTl6MPz-E)
 
-You can also check out my [YouTube channel](https://www.youtube.com/@git-amend) for more Unity content.
+You can also check out my [YouTube channel](https://www.youtube.com/@git-amend?sub_confirmation=1) for more Unity content.
