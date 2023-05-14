@@ -9,7 +9,7 @@ namespace Shmup {
 
         void LateUpdate() {
             // Move the camera along the battlefield at a constant speed
-            transform.position += Vector3.up * speed * Time.deltaTime;
+            transform.position += Vector3.up * (speed * Time.deltaTime);
         }
     }
 }
