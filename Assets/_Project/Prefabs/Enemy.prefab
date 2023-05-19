@@ -114,6 +114,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
+  explosionPrefab: {fileID: 3097778116688820250, guid: 5660205a880b5e74cb28a8df98c1f11e,
+    type: 3}
+  OnSystemDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6574001000158580551
 GameObject:
   m_ObjectHideFlags: 0

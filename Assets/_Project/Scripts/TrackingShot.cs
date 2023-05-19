@@ -21,7 +21,7 @@ namespace Shmup {
             projectileComponent.SetSpeed(projectileSpeed);
             projectileComponent.Callback = () => {
                 // get direction to target with same Z as firePoint
-                Vector3 direction = (target.position - projectile.transform.position).With(z:firePoint.position.z).normalized;
+                Vector3 direction = (target.position - projectile.transform.position).With(z:0).normalized;
                 
                 // rotate forward, with Z as the UP direction (ie. 0, 0, 1 aka Vector3.forward)
                 Quaternion rotation = Quaternion.LookRotation(direction, Vector3.forward);
